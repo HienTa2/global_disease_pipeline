@@ -32,6 +32,9 @@ The workflow follows these steps:
 - **Google Cloud Storage**:
   - Bucket: `bkt-src-global-data`
   - Contains raw CSV files (e.g., `global_health_data.csv`).
+ 
+  - ![{B99C133C-0799-453C-ABBB-8CBF2DE2F60C}](https://github.com/user-attachments/assets/6035dac8-3516-4e45-bf84-2d1d59f3e69e)
+
 
 - **Compute Engine**:
   - Virtual Machine: `hien-airflows` (used to run Apache Airflow).
