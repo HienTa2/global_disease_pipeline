@@ -12,7 +12,9 @@ The project aims to extract, transform, and analyze global disease data by lever
 ---
 
 ## Architecture Diagram
-![Architecture](image.png)
+
+![image](https://github.com/user-attachments/assets/624febec-cc10-4d50-bd8f-5f486b2ca1a6)
+
 
 The workflow follows these steps:
 1. **Global Data**: Data is uploaded to **Google Cloud Storage**.
@@ -57,7 +59,9 @@ The ETL process is orchestrated using Apache Airflow with the following DAGs:
   - Creates final reporting views in the Reporting Dataset for Tableau.
 
 #### DAG Execution Example:
-![Airflow DAG Execution](image.png)
+
+![image](https://github.com/user-attachments/assets/30560840-c94b-4fca-aabc-3d49fb200177)
+
 
 ### 3. Tableau Visualization
 - [Disease Analysis Dashboard](https://public.tableau.com/app/profile/hien.ta/viz/DiseaseAnalysisDashboard/DiseaseAnalysisDashboard?publish=yes)
