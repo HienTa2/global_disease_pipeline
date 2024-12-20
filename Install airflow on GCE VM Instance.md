@@ -88,6 +88,9 @@
    ```bash
    nohup airflow standalone > airflow.log 
    ```
+   ```bash
+   pip install apache-airflow-providers-google 
+   ```
 
 ## Step 7: Access Airflow Web UI
 
