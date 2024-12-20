@@ -123,7 +123,7 @@ The file is uploaded to the Cloud Storage bucket:
 
 ## Repository Structure
 ```
-├── dags
+├── Dags
 │   ├── 00_gcs_bq.py
 │   ├── 01_gsctobq-sensor.py
 │   ├── 02_transformation.py
