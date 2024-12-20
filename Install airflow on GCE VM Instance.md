@@ -79,6 +79,16 @@
    airflow scheduler
    ```
 
+   Start airlow on a VM screen
+    ```bash
+   airflow standalone 
+   ```
+
+   Start airflow with the vm screen off
+   ```bash
+   nohup airflow standalone > airflow.log 
+   ```
+
 ## Step 7: Access Airflow Web UI
 
 1. Get the external IP of your VM:
