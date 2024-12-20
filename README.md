@@ -39,11 +39,17 @@ The workflow follows these steps:
 - **Compute Engine**:
   - Virtual Machine: `hien-airflows` (used to run Apache Airflow).
   - Zone: `us-central1-f`.
+ 
+    ![{2D5FCFB9-61D7-4106-B8E4-FE45D127EDA3}](https://github.com/user-attachments/assets/b3d50c0d-db89-4460-98b2-29238a9dbcac)
+
 
 - **BigQuery DWH**:
   - **Staging Dataset**: Stores raw data (e.g., `global_data` table).
   - **Transform Dataset**: Holds cleaned and transformed data (e.g., `canada_table`, `france_table`, `germany_table`, etc.).
   - **Reporting Dataset**: Contains final data views for reporting (e.g., `canada_view`, `france_view`, `germany_view`, etc.).
+ 
+  - ![{65B97DBE-BA17-47B1-8D6D-E2FEA691A770}](https://github.com/user-attachments/assets/22539df0-4bcc-4e54-b01e-b21ba68e42b1)
+
 
 ### 2. ETL Workflow
 The ETL process is orchestrated using Apache Airflow with the following DAGs:
