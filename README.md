@@ -128,7 +128,7 @@ The file is uploaded to the Cloud Storage bucket:
 │   ├── 01_gsctobq-sensor.py
 │   ├── 02_transformation.py
 │   ├── 03_finalview.py
-├── keys
+├── dataset
 ├── README.md
 ```
 
